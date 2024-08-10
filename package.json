@@ -1,0 +1,19 @@
+{
+  "name": "gimmeimages",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "gimmeimages.js",
+  "scripts": {
+    "gimmeimages": "node --env-file=.env gimmeimages.js",
+    "fetchimages": "node --env-file=.env fetchimages.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.3",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "puppeteer": "^23.0.2"
+  }
+}
